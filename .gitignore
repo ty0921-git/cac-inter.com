@@ -1,0 +1,7 @@
+z_file/
+.git/
+*.css
+*.min.css
+*.css.map
+.DS_Store
+!/js/slick/*.css
