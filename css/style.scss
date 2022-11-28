@@ -133,9 +133,10 @@ form *:focus {
 .box-small {
   display: flex;
   .thumb {
+    display: block;
     background-position: center center;
     background-size: cover;
-    width: 200px;
+    min-width: 180px;
     aspect-ratio: 100/80;
   }
 }

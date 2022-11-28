@@ -79,6 +79,7 @@
         <h2>About Us</h2>
         <ul>
           <li><a href="privacy.html">プライバシーポリシー</a></li>
+          <li><a href="rec_form.html">求人情報</a></li>
           <li><a href="contact_form.html">お問い合わせ</a></li>
           <li><a href="about.html">会社概要</a></li>
         </ul>

@@ -62,13 +62,13 @@
                 <li><a href="category_form.php?key=contact">カテゴリー</a></li>
             </ul>
         </li> -->
-        <!-- <li class="dropdown">
+        <li class="dropdown">
             <i class='bx bx-mail-send'></i><a href="#">メール</a>
             <ul>
                 <li><a href="mailtemp_list.php">テンプレート一覧</a></li>
                 <li><a href="mailtemp_form.php">テンプレート登録</a></li>
             </ul>
-        </li> -->
+        </li>
         <li class="dropdown">
             <i class='bx bx-cog'></i><a href="#">設定</a>
             <ul>

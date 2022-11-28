@@ -11,7 +11,15 @@ require("head.php");
 <body>
   <?php
   require("nav.php");
-  require("slider_slick.php");
+  ?>
+  <div class="text-center mb-5">
+    <picture>
+      <source srcset="slide/slide01_sp.jpg" media="(max-width:767px)">
+      <img class="img-fluid" src="slide/slide01.jpg">
+    </picture>
+  </div>
+
+  <?php
   // require("block_news.php");
   require("block_contents.php");
   // require("block_archive.php");

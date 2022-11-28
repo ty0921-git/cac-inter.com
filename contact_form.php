@@ -12,7 +12,7 @@ require("head.php");
 
 
     <section class="container mb-5">
-        <h2 class="heading"><span>Contact</span> <small>お問い合わせ</small></h2>
+        <h2 class="heading"><span>お問い合わせ</span> <small>Contact</small></h2>
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="py-4 px-4 text-md-center">
@@ -25,7 +25,7 @@ require("head.php");
 
 
     <section class="container mb-5">
-        <h3 class="heading"><span>Phone</span> <small>お電話でのお問い合わせ</small></h3>
+        <h3 class="heading"><span>お電話でのお問い合わせ</span></h3>
         <div class="text-center py-4">
             <?php if (!$com_free_dial && $com_tel) : ?>
                 <div class="display-5"><a href="tel:<?= $com_tel ?>"><?= $com_tel ?></a></div>
@@ -33,14 +33,14 @@ require("head.php");
             <?php if ($com_free_dial) : ?>
                 <div class="display-5"><a href="tel:<?= $com_free_dial ?>"><?= $com_free_dial ?></a></div>
             <?php endif; ?>
-            <small>受付時間 : <?= $com_hour ?></small>
+            <div>受付時間 : <?= $com_hour ?></div>
         </div>
     </section>
 
 
 
     <section class="container mb-5">
-        <h3 class="heading"><span>Contact Form</span> <small>お問い合わせフォーム</small></h3>
+        <h3 class="heading"><span>お問い合わせフォーム</span> <small>Contact Form</small></h3>
 
 
         <form action="contact_regi.php" method="POST" class="py-4">
@@ -83,7 +83,7 @@ require("head.php");
 
                     <div class="text-center">
                         <input class="btn btn-btn" id="submit" type="submit" value="送信する" disabled>
-                        <input type="hidden" name="csrf_token" value="<?=setToken()?>">
+                        <input type="hidden" name="csrf_token" value="<?= setToken() ?>">
                     </div>
 
                 </div>

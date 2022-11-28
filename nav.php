@@ -28,10 +28,12 @@
         <div class="text-end p-2 d-md-none d-block">
           <label for="switch" class="close d-inline-block text-white p-2"><i class='bx bx-md bx-x'></i></label>
         </div>
+
         <ul>
           <li><a href="./">ホーム<small>Home</small></a></li>
           <li><a href="#service">サービス<small>Service</small></a></li>
           <li><a href="privacy.html">プライバシーポリシー<small>Privacy Policy</small></a></li>
+          <li><a href="rec_form.html">求人情報<small>Recruit</small></a></li>
           <li><a href="contact_form.html">お問い合わせ<small>Contact</small></a></li>
         </ul>
 
