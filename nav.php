@@ -31,7 +31,7 @@
 
         <ul>
           <li><a href="./">ホーム<small>Home</small></a></li>
-          <li><a href="#service">サービス<small>Service</small></a></li>
+          <li><a href="index.html#service">サービス<small>Service</small></a></li>
           <li><a href="privacy.html">プライバシーポリシー<small>Privacy Policy</small></a></li>
           <li><a href="rec_form.html">求人情報<small>Recruit</small></a></li>
           <li><a href="contact_form.html">お問い合わせ<small>Contact</small></a></li>
