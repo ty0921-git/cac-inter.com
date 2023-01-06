@@ -33,7 +33,7 @@ require("head.php");
       <?php if ($com_free_dial) : ?>
         <div class="display-5"><a href="tel:<?= $com_free_dial ?>"><?= $com_free_dial ?></a></div>
       <?php endif; ?>
-      <small>受付時間 : <?= $com_hour ?></small>
+      受付時間 : <?= $com_hour ?>
     </div>
   </section>
 

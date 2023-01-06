@@ -62,7 +62,7 @@
         <hr>
         <div class="fs10">
           <div>〒<?= h($com_zip) ?> <?= h($com_add) ?></div>
-          <div><a href=" tel:<?= h($com_tel) ?>">TEL <?= h($com_tel) ?></a> / FAX <?= h($com_fax) ?></div>
+          <div><a href=" tel:<?= h($com_tel) ?>">TEL <?= h($com_tel) ?></a></div>
         </div>
       </div>
 
