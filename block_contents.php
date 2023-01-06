@@ -28,8 +28,8 @@
     foreach ($rows as $row) : ?>
       <div class="col wow fadeInUp" data-wow-delay="<?= ($i * 0.1) ?>s">
         <div class="box">
-          <a href="<?= $row['link'] ?>" class="thumb thumb01-hold" style="background-image:url(<?= $row['thumb'] ?>);"></a>
-          <a href="<?= $row['link'] ?>" class="title"><?= $row['title'] ?></a>
+          <a class="thumb thumb01-hold" style="background-image:url(<?= $row['thumb'] ?>);"></a>
+          <a class="title"><?= $row['title'] ?></a>
           <div class="exp"><?= $row['exp'] ?></div>
         </div>
       </div>
