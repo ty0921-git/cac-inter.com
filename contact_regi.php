@@ -3,7 +3,7 @@ require("./core/config.php");
 require("function.php");
 checkToken();
 get_setting();
-
+$com_tel = "03-5988-7947";
 
 foreach ($_POST as $key => $val) {
     $$key = htmlspecialchars($val);

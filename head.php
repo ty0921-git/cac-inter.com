@@ -1,6 +1,7 @@
 <?php
 require("function.php");
 get_setting();
+$com_tel = "03-5988-7947";
 ?>
 <!DOCTYPE html>
 <html lang="ja" prefix="og: https://ogp.me/ns#">
